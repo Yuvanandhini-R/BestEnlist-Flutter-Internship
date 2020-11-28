@@ -102,7 +102,6 @@ class _MyHomeState extends State<MyHome> {
               ),
             ],
           ),
-          // TODO: give value for `isSelected`
           ToggleButtons(
             children: <Widget>[
               Icon(Icons.thumb_up_alt_rounded),

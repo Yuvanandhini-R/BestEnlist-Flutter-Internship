@@ -5,17 +5,7 @@ class ProductRow extends StatelessWidget {
   const ProductRow(this.productModel, {Key key}) : super(key: key);
 
   final ProductModel productModel;
-// ClipRRect(
-//                     child: Container(
-//                       child: Image.asset(
-//                         productModel.image,
-//                         fit: BoxFit.cover,
-//                       ),
-//                       width: 100,
-//                       height: 100,
-//                     ),
-//                     borderRadius: BorderRadius.circular(30),
-//                   ),
+  
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
